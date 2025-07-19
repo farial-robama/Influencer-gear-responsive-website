@@ -1,0 +1,22 @@
+/* navbar related styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7.5em;
+}
+.nav-logo{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.nav-links-nav-icons{
+    list-style: none; 
+    display: flex; 
+    gap: 20px;
+   
+}
+
+.nav-links-nav-icons li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
